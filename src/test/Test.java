@@ -1,5 +1,6 @@
 package test;
 
-public class Test {
+import main.general.OSPerfomance.SystemInfo;
 
+public class Test {
 }
