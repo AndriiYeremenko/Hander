@@ -1,10 +1,12 @@
 package main.general.CpuPerfomance;
 
+
 import main.general.OSPerfomance.OSValidator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 
 public class CpuSpecification {
 
@@ -65,4 +67,5 @@ public class CpuSpecification {
         }
         return numberOfCores;
     }
+
 }
