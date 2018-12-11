@@ -26,15 +26,15 @@ public class OSValidator {
     public static String getOS(){
 
         if (isWindows()) {
-            return "win";
+            return "Windows";
         } else if (isMac()) {
-            return "osx";
+            return "MacOS";
         } else if (isUnix()) {
-            return "uni";
+            return "Unix";
         } else if (isSolaris()) {
-            return "sol";
+            return "Solaris";
         } else {
-            return "err";
+            return "Error";
         }
     }
 
